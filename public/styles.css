@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Lilita One', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 500px;
+    background-color: rgb(255,187,0);
+    border-radius: 50px;
+}
+
+#header {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: solid 10px rgb(255,187,0);
+}
+
+#linkList {
+    display: flex;
+    width: 1000px;
+    margin: 0;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    font-family:  'Lilita One', cursive;
+    font-size: 25px;
+    list-style: none;
+}
+
+#linkContainer {
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    background-color: rgb(255,187,0);
+    position: fixed;
+    bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;  
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p {
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 20px;
+    width: 940px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+
+    border: solid 3px rgb(255,187,0);
+}
+
+#songBox {
+    width: 600px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imageContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.gallery {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 290px;
+    object-fit: cover;
+
+    border: solid 3px rgb(255,187,0);
+}
+
+#spacer {
+    height: 100px;
+}
